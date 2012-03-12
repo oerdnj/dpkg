@@ -1,7 +1,7 @@
-dpkg (1.16.1.2~bpo60+1) squeeze-backports; urgency=low
+dpkg (1.16.1.2~) unstable; urgency=low
 
   [ Ondřej Surý ]
-  * Rebuild for squeeze-backports
+  * Rebuild for Ubuntu Lucid
 
   [ Raphaël Hertzog ]
   * Only build dpkg-dev and libdpkg-perl as discussed with the backports
