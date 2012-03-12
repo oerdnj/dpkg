@@ -1,5 +1,9 @@
-dpkg (1.16.1.1~bpo60+2) squeeze-backports; urgency=low
+dpkg (1.16.1.2~bpo60+1) squeeze-backports; urgency=low
 
+  [ Ondřej Surý ]
+  * Rebuild for squeeze-backports
+
+  [ Raphaël Hertzog ]
   * Only build dpkg-dev and libdpkg-perl as discussed with the backports
     team: http://lists.debian.org/debian-backports/2011/11/msg00030.html
   * Revert usage of po4a --srcdir --destdir since the squeeze version
@@ -7,13 +11,7 @@ dpkg (1.16.1.1~bpo60+2) squeeze-backports; urgency=low
     not exist.” since the switch to srcdir happens too late in the code,
     the wheezy version does not have this problem).
 
- -- Raphaël Hertzog <hertzog@debian.org>  Wed, 23 Nov 2011 14:04:29 +0100
-
-dpkg (1.16.1.1~bpo60+1) squeeze-backports; urgency=low
-
-  * Rebuild for squeeze-backports.
-
- -- Raphaël Hertzog <hertzog@debian.org>  Sat, 29 Oct 2011 18:30:02 +0200
+ -- Ondřej Surý <ondrej@debian.org>  Mon, 12 Mar 2012 19:46:52 +0100
 
 dpkg (1.16.1.2) unstable; urgency=medium
 
